@@ -2,7 +2,7 @@ name: Update Time
 
 on:
   schedule:
-    - cron: '0 0 1 * *'  # 每月1号 00:00 UTC 触发
+    - cron: '0 0 15 * *'  # 每月15号 00:00 UTC 触发
   workflow_dispatch:  # 允许手动触发
 
 jobs:
